@@ -1,7 +1,24 @@
+/*<!-- dit is een selector-->*/
 h1, h2 {
     color : blue;
     font-size : 5em;
 }
-
+/*dit is een klasse*/
 .styleYellow
 {color:yellow;}
+
+/*dit is opmaak en kan 1x gebruikt worden */
+#opmaak {
+    color: yellow;
+}
+/*hier zeg je dat h1 een kind is van section maar niet van body denk aan de DOM boom */
+section>h1{
+    color : green;
+    font-size : 5em;
+}
+
+section.styleYellow h1{
+    color : green;
+    font-size : 5em;
+}
+
