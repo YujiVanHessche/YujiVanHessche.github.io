@@ -1,0 +1,27 @@
+body {
+    background: dimgrey;
+    color: darkblue;
+    font-family: Verdana, sans-serif;
+    font-size:  1.1em;
+}
+
+h1 {
+    font-variant: small-caps;
+    background-color: red;
+}
+
+a{
+    color: darkblue;
+}
+a:hover {
+    border: 1px solid darkblue;
+}
+
+.stippeltjesrand {
+    border : 1px dotted;
+}
+
+.dashed {
+    border : 1px dashed;
+}
+

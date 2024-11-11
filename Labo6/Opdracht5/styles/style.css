@@ -1,0 +1,10 @@
+
+
+.link {
+    background-image: url(".././image/download.png");
+    background-size: 1em;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: inline-block;
+    padding-left: 1em;
+}

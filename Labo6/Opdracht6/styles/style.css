@@ -1,0 +1,9 @@
+.empty {
+    list-style-image: url(".././images/empty.png");
+    list-style-position: inside;
+}
+
+.checkmark {
+    list-style-image: url(".././images/checkmark.png");
+    list-style-position: inside;
+}
