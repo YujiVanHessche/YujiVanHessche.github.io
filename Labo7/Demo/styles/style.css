@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(".././background-image");
+}
+
+header h1 {
+    margin: 0;
+    color: red;
+    background-image: url(".././background-image");
+}
+header{
+    height: 800px;
+    background-image: url(".././background-image/image/sky.jpg");
+    background-repeat : repeat-Y;
+    background-color: #FFFFFF;
+    background-size: cover;
+}
