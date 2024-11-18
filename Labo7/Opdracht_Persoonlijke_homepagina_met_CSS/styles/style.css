@@ -1,0 +1,27 @@
+body {
+    background-color: #4c4c4c;
+    margin: 10px;
+}
+body>header>h1 {
+    background-image: url("../images/e36.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    color: #64ba64;
+    font-size: 100px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+div>ul>li{
+    color: orange;
+}
+a{
+    color:purple;
+}
+h2 {
+    color: #64ba64;
+}
+ul,li{
+    color: #FFFFFF;
+}

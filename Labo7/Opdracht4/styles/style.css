@@ -1,0 +1,11 @@
+.days{background-color: rgb(35,37,70);color:rgb(200,190,240); font-weight: bold; text-align: center;}
+#head{background-color: rgb(170,170,200); text-align: center;}
+#weekend{background-color: rgb(255, 220, 220)}
+#vrijedag{background-color: rgb(250,120,120)}
+#maand{background-color: gray}
+.underline{text-decoration: underline; color:blue}
+body{
+    padding: 30px;
+}
+table { border-collapse: separate; text-align: left; width: 100% ; border-style: solid;border-color: black; border-width: 1px;}
+tbody>tr>td {border-style: dotted}
