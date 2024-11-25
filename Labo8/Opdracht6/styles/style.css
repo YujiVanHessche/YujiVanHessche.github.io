@@ -1,0 +1,22 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.naastelkaar {
+    display: flex;
+}
+
+.kollom {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #f4f4f4;
+
+}
+
