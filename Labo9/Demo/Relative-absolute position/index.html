@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    div.relative {
+      position: relative;
+      width: 400px;
+      height: 200px;
+      border: 3px solid blue;
+      top:200px;
+      left:100px;
+    }
+
+    div.absolute {
+      position: absolute;
+      top: 80px;
+      right: 0;
+      width: 200px;
+      height: 100px;
+      border: 3px solid #73AD21;
+    }
+  </style>
+<!--  /* verschil relatief en absolute position => soort x en y coordinaat. kijk naar boven van parent naar voorouder etc*/&ndash;&gt;-->
+<!--  &lt;!&ndash;/* als hij geen tegen komt van positionering dan automatisch positioneert hij zich volgens links boven*/&ndash;&gt;-->
+<!--  &lt;!&ndash;/* relatieve positionering is dat hij zich positioneert volgens zijn oorspronkelijke plaatst */-->
+  </head>
+  <body>
+
+
+  <p>An element with position</p>
+
+  <div>This div element hasn't position;
+    <div class="absolute">This div element has position: absolute;</div>
+  </div>
+
+  <div class="relative">This div element has position: relative;
+    <div class="absolute">This div element has position: absolute;</div>
+<!--    /* hierbij heeft hij een voorouder die absolute namelijk relatief dus drm da kader sta ie 80 nr beneden en 0 van rechts */-->
+
+  </div>
+
+
+
+  </body>
+  </html>

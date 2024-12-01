@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+    padding: 0px;
+    width: 95%;
+}
+#vet1{
+    font-weight: bold;
+    font-size: 300%;
+    font-style: italic;
+}
+#vet2{
+    font-weight: bold;
+    font-size: 240%;
+}
+.top>img{
+    position: absolute;
+    bottom : 60px;
+    right: 250px;
+    box-sizing: border-box;
+}
+.top{
+    height:200px;
+    text-align: center;
+    background: url("images/bgsky3.jpg") no-repeat;
+    background-size: cover;
+    position: relative; /* nodig om vliegtuig absoluut te positioneren*/
+    color: darkblue;
+}
+.top>p{
+    color: blue;
+    text-align: center;
+    font-size: xx-large;
+}
+.news{
+    float: right;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    text-align: center;
+    width: 25%;
+    background-color: #dddddd;
+}
+.news>h3{
+    background-color: blue;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.news>p{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #666666;
+    font-size: 90%;
+}
+.main{
+    width: 75%;
+
+}
+.logo{
+
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    float: left;
+
+}
+.introduction{
+   margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+.gallery{
+    background-color: #999999;
+
+}
+.foto{
+    display: inline-block;
+    border: 1px dashed black;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.bottom{
+    background-color: #666666;
+}
+.block{
+    margin-left: 120px;
+    color: white;
+    line-height: 2em;
+}
+.block a:hover{
+    color: red;
+}
+.copyright{
+    text-align: center;
+    background-color: white;
+}
