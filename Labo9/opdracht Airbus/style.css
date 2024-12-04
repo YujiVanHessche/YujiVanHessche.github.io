@@ -72,10 +72,11 @@ body {
 }
 .gallery{
     background-color: #999999;
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
 
 }
 .foto{
-    display: inline-block;
     border: 1px dashed black;
     background-color: white;
     padding: 10px;
