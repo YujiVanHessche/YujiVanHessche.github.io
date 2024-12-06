@@ -1,0 +1,27 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+.container-fluid {
+    display: ;
+
+}
+#box1{
+    background-color: purple;
+}
+#box2{
+    background-color: yellow;
+}
+#box3{
+    background-color: orange;
+}
+#box4{
+    background-color: blue;
+}
+#box5{
+    background-color: #1F9995;
+}
+#box6{
+    background-color: #EF233C;
+}
