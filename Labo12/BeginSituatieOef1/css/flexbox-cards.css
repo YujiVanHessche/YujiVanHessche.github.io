@@ -67,6 +67,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* justify content moet hier wel staan anders is het niet mooi gecentreerd toch? */
 }
 
 .card {
