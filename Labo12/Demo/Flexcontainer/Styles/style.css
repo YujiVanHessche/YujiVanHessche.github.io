@@ -1,0 +1,42 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: lightskyblue;
+    font-family: Chalkboard, sans-serif;
+}
+
+h1 {text-align: center;}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+
+.border {border: 2px solid black;}
+section{
+    background:coral;
+    height: 500px;
+    display: flex;
+    /*flex-direction: column;*/
+    /*flex-direction: row; //default das default oe het is*/
+    /*flex-direction: row-reverse;*/
+
+/*justify-content: stretch; // bij dit is strech de default*/
+/*    justify-content: flex-end; */
+    justify-content: center; centreert u blokken
+    align-items: flex-end;
+
+}
+
+.grey-box {
+    background: grey;
+    width: 100px ;
+    flex: 0 1 auto;
+    /*elk kind heeft altijd dit staan aangezien je niet groter mag worden maar wel mag krimpen en dan de grootte auto */
+    margin: 10px;
+    padding: 20px;
+    font-size: 2em;
+}
