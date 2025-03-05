@@ -1,0 +1,10 @@
+p{
+    display: inline;
+}
+fieldset{
+    box-sizing: border-box;
+    border: black solid 1px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}

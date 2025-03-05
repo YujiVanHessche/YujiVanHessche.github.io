@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Invulformulier</title>
+</head>
+<body>
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+<form method="post" action="mailto:yuji.vanhessche@student.vives.be?subject=formulier">
+    <fieldset>
+        <div><p>
+            <label>First Name &ast;:</label>
+            <input type="text" id="first" required placeholder="Your first name" autofocus>
+        </p></div>
+        <div><p>
+            <label>Last Name &ast;:</label>
+            <input type="text" required placeholder="Your last name">
+        </p></div>
+    </fieldset>
+
+    <fieldset>
+        <h4>Sports</h4>
+        <p> Wich sport do you train? </p>
+        <div>
+            <div>
+                <input type="checkbox" id="running" name="sport" value="running">
+                <label for="running">Running</label>
+            </div>
+            <div>
+                <input type="checkbox" id="swimming" name="sport" value="swimming">
+                <label for="swimming">Swimming</label>
+            </div>
+            <div>
+                <input type="checkbox" id="rowing" name="sport" value="rowing">
+                <label for="rowing">Rowing</label>
+            </div></div>
+
+    </fieldset>
+
+    <fieldset>
+        <h4>Gender</h4>
+        <div><input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+        </div>
+        <div><input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label> </div>
+        <div><input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other / Prefer not to say</label> </div>
+    </fieldset>
+
+    <fieldset>
+        <div><p>Favorite Movie: <input type="text"></p></div>
+        <div><p>Favorite Quote: <input type="text" required placeholder="your favorite quote"></p></div>
+        <div><p>Favorite Food:
+            <div><select size="3">
+                <option>Hamburger</option>
+                <option>Hot Dog</option>
+                <option>Pizza</option>
+            </select></div>
+            </p></div>
+        <div><p>Choose a flavor: <input type="text"></p></div>
+    </fieldset>
+
+    <fieldset>
+        <div><p>Password: <input required type="password"></p></div>
+        <div><p>Email address&ast;: <input type="text" required placeholder="Enter your email address"></p></div>
+        <div><p>Favorite Site: <input type="text" placeholder="Enter the URL of your favorite site"></p></div>
+    </fieldset>
+
+    <fieldset>
+        <div><p>Favorite Number (1-10): <input type="number" value="0" max="10"></p></div>
+        <div><p>Favorite Number (11-1000): <input type="range" min="11" max="1000" value="11"> </p></div>
+        <div><p>When were you born? <input type="date"></p></div>
+        <div><p>Belgian zip-code reg number &ast;: <input type="text" required placeholder="9999"></p></div>
+    </fieldset>
+
+    <fieldset>
+        <div><p>Search for something: <input type="search"></p></div>
+        <div><p>What is your favorite color? <input type="color"></p></div>
+        <div><p>Upload a file: <input type="file"></p></div>
+    </fieldset>
+    <input type="submit">
+</form>
+</body>
+</html>
