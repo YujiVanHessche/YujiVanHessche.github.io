@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Title</title>
+</head>
+<body>
+<form name="form" method="post">
+    <fieldset>
+    <div>
+        <label for="voornaam">voornaam </label><input type="text"  placeholder="voornaam" name="voornaam" id="voornaam"></div>
+        <span class="errorMessage" id="errorvoor"></span>
+    <div>
+        <label for="familienaam">familienaam </label><input  placeholder="familienaam" type="text" name="familienaam" id="familienaam">
+        <span class="errorMessage" id="errorfam"></span>
+    </div></fieldset>
+    <fieldset>
+    <div>
+        <label for="datum">datum </label><input  placeholder="jj-mm-dd" id="datum" type="text">
+        <span class="errorMessage" id="errordate"></span>
+    </div>
+        <div>
+            <label for="email">emailadress : </label><input type="text" id="email">
+            <span class="errorMessage" id="erroremail"></span>
+        </div>
+        <div>
+            <label for="nummer">aantal kinderen </label><input id="nummer" type="text">
+            <span id="erroraantalkids" class="errorMessage"></span>
+        </div>
+    </fieldset>
+    <input type="button" id="validate" value="validatie">
+</form>
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+</body>
+</html>

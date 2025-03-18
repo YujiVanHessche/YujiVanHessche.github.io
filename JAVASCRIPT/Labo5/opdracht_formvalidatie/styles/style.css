@@ -1,0 +1,8 @@
+input.ongeldig{
+    color : red;
+    border: 1px solid red;
+}
+.errorMessage {
+    color: red;
+    margin-left: 5px;
+}
