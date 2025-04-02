@@ -1,0 +1,18 @@
+#playField{
+    position: relative;
+    border: solid 1px black;
+    box-sizing: border-box;
+    height: 800px;
+    width: 600px;
+    // aanvullen met hoogte en breedte
+}
+
+
+#target {
+    position: absolute;
+}
+.unselectable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
