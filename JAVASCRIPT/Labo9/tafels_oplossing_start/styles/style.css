@@ -1,0 +1,12 @@
+.even{
+    background-color: blue;
+}
+.tabel{
+    border: 1px solid black;
+    float: left;
+    margin: 5px;
+    width: 300px;
+}
+.tabelcontainer{
+    
+}

@@ -50,7 +50,7 @@ const speelspel = () =>{
         target.addEventListener('click', () => {
             if (target.getAttribute('alt') === "bom") {
                 alert("Game over, je hebt op een bom geklikt. \nJe hebt een score van " + global.score);
-                clearTimeout(0);
+                clearInterval(0);
             } else {
                 global.score++;
                 moveTarget();
