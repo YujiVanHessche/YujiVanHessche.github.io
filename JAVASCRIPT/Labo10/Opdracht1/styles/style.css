@@ -1,0 +1,42 @@
+
+input{
+    width: 100%;
+}
+
+button {
+    display: block;
+    width: 100%;
+    color: white;
+    background-color: green;
+}
+a.youtube-button{
+    background-color: green;
+}
+a.instagram-button{
+    background-color: #80141C;
+}
+a.twitter-button{
+    background-color: #3E0A6B;
+}
+a.google-button{
+    background-color: #2B2D42;
+}
+.card.youtube-card{
+    background-color: red;
+    font-weight: bold;
+
+}
+.card.twitter-card{
+    background-color: blue;
+    font-weight: bold;
+}
+.card.google-card{
+    background-color: yellowgreen;
+    font-weight: bold;
+}
+.card.instagram-card{
+    background-color:purple;
+
+
+    font-weight: bold;
+}
