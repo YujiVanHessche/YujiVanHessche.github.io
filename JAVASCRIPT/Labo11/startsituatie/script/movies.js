@@ -62,4 +62,3 @@ let movies =
 		description: "A vengeful fairy is driven to curse an infant princess, only to discover that the child may be the one person who can restore peace to their troubled land."
 	}
 ];
-window.addEventListener("load", setup);
